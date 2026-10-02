@@ -95,7 +95,7 @@ window.SITE = {
         "title": "xinyao ’26 🎹 🎤",
         "period": "June 2026",
         "showCaptions": false,
-        "text": "i've always wanted to perform in a band, & xinyao gave me the chance to finally make it happen when i realised that many i met through eXplore were also interested in music. i started out as the keyboardist. we didn't even think we'd make it through the first round but somehow we did. for the second round, i found out that a band was provided & hence i had to pivot. as a group we spent so many hours that week practising & somehow i managed to learn a few parts too to perform. we may not have won the finals but truth be told it was never about the result but about the journey. it was such a fun experience spending hours practising with this bunch. 🔥",
+        "text": "i've always wanted to perform in a band. therefore, when one of my friends from eXplore asked if anyone was interested in this, i immediately agreed despite not even knowing chinese. i started out as the keyboardist. we didn't even think we'd make it through the first round but somehow we did. for the second round, i found out that a band was provided & hence i had to pivot. as a group we spent so many hours that week practising & somehow i managed to learn a few parts too to perform. we may not have won the finals but truth be told it was never about the result but about the journey. it was such a fun experience spending hours practising with this bunch. 🔥🎤",
         "items": ["xinyao-performance", "xinyao-216", "xinyao-051"],
         "link": {
             "label": "the explorers in zaobao ↗",

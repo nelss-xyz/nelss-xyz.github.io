@@ -1,7 +1,7 @@
 /* Site content. Edit freely — main.js renders from here. */
 window.SITE = {
   contact: {
-    github: 'https://github.com/slenplayz',
+    github: 'https://github.com/nelss-xyz',
     email: '', // e.g. 'hello@nelss.xyz' — leave empty to hide
   },
 

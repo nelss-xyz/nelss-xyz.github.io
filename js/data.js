@@ -119,6 +119,7 @@ window.SITE = {
 
   // Curated in reading order: dusk, streets, daylight, and a quiet ending.
   lens: [
+    { slug: 'shopfront-evening', alt: 'People walking through a warmly lit shopping arcade at night' },
     { slug: 'hk-skyline', alt: 'Hong Kong harbour under a violet evening sky' },
     { slug: 'cinematic-road', alt: 'A tree-lined Singapore road at sunset' },
     { slug: 'cbd-ecp', alt: 'City lights across the water from the ECP' },
@@ -127,11 +128,17 @@ window.SITE = {
     { slug: 'dsc08138', alt: 'People gathered in a softly lit interior' },
     { slug: 'victoria-bay', alt: 'A ferry crossing Victoria Harbour' },
     { slug: 'hills', alt: 'Clouds drifting across a green mountainside' },
+    { slug: 'sun-buildings', alt: 'A red sun between city buildings' },
     { slug: 'ndp-helicopter', alt: 'Helicopters over the Singapore skyline at sunset' },
     { slug: 'ndp-flypast', alt: 'A flag suspended beneath helicopters in a pink sky' },
-    { slug: 'sun-buildings', alt: 'A red sun between city buildings' },
     { slug: 'image-3', alt: 'A pink evening sky over rooftops' },
     { slug: 'cbd-kembangan', alt: 'Distant Singapore skyline after dark' },
+    { slug: 'sunlit-atrium', alt: 'A sunlit modern atrium opening onto a garden' },
+    { slug: 'cafe-at-night', alt: 'A softly lit café interior after dark' },
+    { slug: 'mall-after-dark', alt: 'A multi-storey shopping centre glowing after dark' },
+    { slug: 'monochrome-crossing', alt: 'A black and white city street with pedestrians at night' },
+    { slug: 'crossing-after-dark', alt: 'Pedestrians beneath an elevated walkway on a rainy night' },
+    { slug: 'golden-water', alt: 'Golden reflections shimmering across dark water' },
     { slug: 'include-this-pic', alt: 'Late afternoon sunlight falling into a classroom' },
   ],
 };

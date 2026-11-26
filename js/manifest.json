@@ -838,7 +838,8 @@
         "ISO": 50,
         "DateTimeOriginal": "2023:11:15 06:50:55"
       },
-      "exif": "iPhone 15 · 6mm · f/1.6 · 1/303s · ISO 50"
+      "exif": "iPhone 15 · 6mm · f/1.6 · 1/303s · ISO 50",
+      "camera": "iPhone 15"
     },
     "psl-24": {
       "w": 2048,
@@ -977,6 +978,200 @@
       "rawExif": {
         "ImageWidth": 1920,
         "ImageHeight": 2560
+      }
+    },
+    "shopfront-evening": {
+      "w": 2280,
+      "h": 1425,
+      "widths": [
+        800,
+        1600,
+        2280
+      ],
+      "exif": "OPPO Find X9 Pro · 6.8mm · f/1.5 · 1/100s · ISO 250",
+      "camera": "OPPO Find X9 Pro",
+      "hdr": false,
+      "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACwBACdASoYAA8APyV6tFGuJ6UisAgBwCSJbACdMoRwFf/gNcBRbKGccL744T6YAP7Ntf3JlKYmokPgs+efVh89esRo5K79KtqqIb2yVrK02mMSDFEfdzOxYb6luDsPklQiyes25atkLYaflssIXHt1IoFowAqy4+cwC/brenBuQepu5vREFgVqLo9oOYA8adWcWEAA",
+      "source": "assets/originals/shopfront-evening.jpg",
+      "caption": "shopfront-evening",
+      "captureDate": "2026-11-20",
+      "dateSource": "DateTimeOriginal",
+      "rawExif": {
+        "ImageWidth": 2280,
+        "ImageHeight": 1425,
+        "Make": "OPPO",
+        "Model": "CPH2791",
+        "FocalLength": "6.8 mm",
+        "FNumber": 1.5,
+        "ExposureTime": "1/100",
+        "ISO": 250,
+        "DateTimeOriginal": "2026:11:20 16:15:19"
+      }
+    },
+    "crossing-after-dark": {
+      "w": 1534,
+      "h": 2048,
+      "widths": [
+        800,
+        1534
+      ],
+      "exif": "OPPO Find X9 Pro · 6.8mm · f/1.5 · 1/100s · ISO 800",
+      "camera": "OPPO Find X9 Pro",
+      "hdr": false,
+      "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBQCdASoYACEAPyV8uVOuJyWisBVaqcAkiWcAz9wH9LRzx/n4BqTFogAWV102qc7WnQIAAP7QnbvgaFppVAzI/cnR2x1pCiwQzUCFC+Myt8XGwsH9wj5W0NlfGp4jyZIYOa2zllDDt0wPXOqX8i854GmcG+8BDyY9U7b8AAA=",
+      "source": "assets/originals/crossing-after-dark.jpg",
+      "caption": "crossing-after-dark",
+      "captureDate": "2026-11-16",
+      "dateSource": "DateTimeOriginal",
+      "rawExif": {
+        "ImageWidth": 1534,
+        "ImageHeight": 2048,
+        "Make": "OPPO",
+        "Model": "OPPO Find X9 Pro",
+        "FocalLength": "6.8 mm",
+        "FNumber": 1.5,
+        "ExposureTime": "1/100",
+        "ISO": 800,
+        "DateTimeOriginal": "2026:11:16 18:31:02"
+      }
+    },
+    "cafe-at-night": {
+      "w": 1907,
+      "h": 2546,
+      "widths": [
+        800,
+        1600,
+        1907
+      ],
+      "exif": "OPPO Find X9 Pro · 6.8mm · f/1.5 · 1/100s · ISO 1000",
+      "camera": "OPPO Find X9 Pro",
+      "hdr": false,
+      "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwBACdASoYACEAPyV2uFGuJyWisBqqqcAkiWUA0MwWbokiRsHMdh7Wak+c1HTJCwAA/uvssmqVZWOj+W34LEsV1ZxTZlcGlpCtxXOLwLYDi4EzaGH/wIHb4dBhlVYdmDeRGicCHAAQjMAA",
+      "source": "assets/originals/cafe-at-night.jpg",
+      "caption": "cafe-at-night",
+      "captureDate": "2026-11-16",
+      "dateSource": "DateTimeOriginal",
+      "rawExif": {
+        "ImageWidth": 1907,
+        "ImageHeight": 2546,
+        "Make": "OPPO",
+        "Model": "CPH2791",
+        "FocalLength": "6.8 mm",
+        "FNumber": 1.5,
+        "ExposureTime": "1/100",
+        "ISO": 1000,
+        "DateTimeOriginal": "2026:11:16 18:29:15"
+      }
+    },
+    "sunlit-atrium": {
+      "w": 2571,
+      "h": 3431,
+      "widths": [
+        800,
+        1600,
+        2400
+      ],
+      "exif": "OPPO Find X9 Pro · 6.8mm · f/1.5 · 1/2000s · ISO 160",
+      "camera": "OPPO Find X9 Pro",
+      "hdr": false,
+      "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAABwBgCdASoYACEAPyWAuFIuKKWiqqwBwCSJYwDC+BQ8U7Ofda1b+nocDJ+7Wz9ThQ27Bv1nYEuLT6/wREAA/ujpoM654DYVjvaiT6YzUDikD9FR5cHfhZvYe8/i8C7WYj+L8r2f6rTN1KgiOlvvnARrMPEU3Cd8lTyW99qM85sLzMeE6R5M+ulvCjRT2wd6SbtQwHx+KGVK/VFU4gJW7+F/pK6lrt/i10TdBgAA",
+      "source": "assets/originals/sunlit-atrium.jpg",
+      "caption": "sunlit-atrium",
+      "captureDate": "2026-11-03",
+      "dateSource": "DateTimeOriginal",
+      "rawExif": {
+        "ImageWidth": 2571,
+        "ImageHeight": 3431,
+        "Make": "OPPO",
+        "Model": "CPH2791",
+        "FocalLength": "6.8 mm",
+        "FNumber": 1.5,
+        "ExposureTime": "1/2000",
+        "ISO": 160,
+        "DateTimeOriginal": "2026:11:03 16:33:49"
+      }
+    },
+    "monochrome-crossing": {
+      "w": 1139,
+      "h": 1520,
+      "widths": [
+        800,
+        1139
+      ],
+      "exif": "OPPO Find X9 Pro · 6.8mm · f/1.5 · 1/100s · ISO 2000",
+      "camera": "OPPO Find X9 Pro",
+      "hdr": false,
+      "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAwBQCdASoYACEAPyWEuFYuKCUjpWzJwCSJaQAAo6f0BBsrjxnl58gduWz6SwQG0B6MAAD+9Xq9fxG0S+x4pRKd9DU7NSwIUziHoGpr+l/7U4o1gP9aUrgBecNBM0ltdX3tlCibUjsKZUHkCb6+S+nNgAl7C+BGRLdffjs+L5aiCzQW7ILfXpxYOu28cAAA",
+      "source": "assets/originals/monochrome-crossing.jpg",
+      "caption": "monochrome-crossing",
+      "captureDate": "2026-10-31",
+      "dateSource": "DateTimeOriginal",
+      "rawExif": {
+        "ImageWidth": 1139,
+        "ImageHeight": 1520,
+        "Make": "OPPO",
+        "Model": "CPH2791",
+        "FocalLength": "6.8 mm",
+        "FNumber": 1.5,
+        "ExposureTime": "1/100",
+        "ISO": 2000,
+        "DateTimeOriginal": "2026:10:31 22:36:58"
+      }
+    },
+    "mall-after-dark": {
+      "w": 2468,
+      "h": 3295,
+      "widths": [
+        800,
+        1600,
+        2400
+      ],
+      "exif": "OPPO Find X9 Pro · 16.5mm · f/2.1 · 1/100s · ISO 320",
+      "camera": "OPPO Find X9 Pro",
+      "hdr": false,
+      "lqip": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAABQBgCdASoYACEAPyWAtlUuJ6SjKrgMAcAkiWMAxNsuwGAEgGuwrWuJ/hx23KJUXuPwJRClbMQ6VOCgAAD+6feVz7LCJ4D1JEoz1WceHg6uL0MtSmsv/L/cDcoybJxgAhYFFLRYB1n23/k+fcBJ5Uws901swTsLlzMC32nK10k12uiGtOUeDUm/Vx0uIH2evuowjyx8zOgUFLHsmcu1mkWPk89jstH0/gHNEHwpQgEDY6xaZ0rZHoeXqqkciEYPhH2cLzYqSRChJha4oIgAAA==",
+      "source": "assets/originals/mall-after-dark.jpg",
+      "caption": "mall-after-dark",
+      "captureDate": "2026-10-30",
+      "dateSource": "DateTimeOriginal",
+      "rawExif": {
+        "ImageWidth": 2468,
+        "ImageHeight": 3295,
+        "Make": "OPPO",
+        "Model": "CPH2791",
+        "FocalLength": "16.5 mm",
+        "FNumber": 2.1,
+        "ExposureTime": "1/100",
+        "ISO": 320,
+        "DateTimeOriginal": "2026:10:30 18:04:53"
+      }
+    },
+    "golden-water": {
+      "w": 2299,
+      "h": 3066,
+      "widths": [
+        800,
+        1600,
+        2299
+      ],
+      "exif": "OPPO Find X9 Pro · 16.5mm · f/2.1 · 1/140s · ISO 400",
+      "camera": "OPPO Find X9 Pro",
+      "hdr": false,
+      "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAwCdASoYACEAPyWAt1IuKKWiqqwBwCSJQAALaX7skVLFkbCuoAD+6/rZNSyzxbCaT5qLP9Ykf4sopc4JuOyop3ahDmP9Nx3XZU7umju9U/OSRF5FhC8DsLO0nwAA",
+      "source": "assets/originals/golden-water.jpg",
+      "caption": "golden-water",
+      "captureDate": "2026-11-19",
+      "dateSource": "DateTimeOriginal",
+      "rawExif": {
+        "ImageWidth": 2299,
+        "ImageHeight": 3066,
+        "Make": "OPPO",
+        "Model": "OPPO Find X9 Pro",
+        "FocalLength": "16.5 mm",
+        "FNumber": 2.1,
+        "ExposureTime": "1/140",
+        "ISO": 400,
+        "DateTimeOriginal": "2026:11:19 18:39:53"
       }
     }
   },

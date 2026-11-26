@@ -67,6 +67,16 @@ const LENS = [
   ['Include this pic.jpg', 'include-this-pic'],
 ];
 
+const EXTRA_LENS = [
+  ['shopfront-evening', 'A warmly lit shopping arcade at night'],
+  ['crossing-after-dark', 'Pedestrians beneath an elevated walkway on a rainy night'],
+  ['cafe-at-night', 'A softly lit café interior after dark'],
+  ['sunlit-atrium', 'A sunlit modern atrium opening onto a garden'],
+  ['monochrome-crossing', 'A black and white city street with pedestrians at night'],
+  ['mall-after-dark', 'A multi-storey shopping centre glowing after dark'],
+  ['golden-water', 'Golden reflections shimmering across dark water'],
+];
+
 const VIDEO = ['8th SC Signing Out.mp4', 'signing-out'];
 
 function run(cmd, args) {
@@ -153,13 +163,14 @@ function main() {
   const selected = process.argv.slice(2);
   if (selected.length) {
     const manifest = JSON.parse(readFileSync(join(ROOT, 'js/manifest.json')));
-    const entries = [...TIMELINE.map(([file, slug]) => ['Biography', file, slug]),
-      ...LENS.map(([file, slug]) => ['Photography', file, slug])];
+    const entries = [...TIMELINE.map(([file, slug]) => [slug, join(SRC, 'Biography', file)]),
+      ...LENS.map(([file, slug]) => [slug, join(SRC, 'Photography', file)]),
+      ...EXTRA_LENS.map(([slug]) => [slug, join(ROOT, 'assets', 'originals', slug + '.jpg')])];
     for (const slug of selected) {
-      const entry = entries.find(item => item[2] === slug);
+      const entry = entries.find(item => item[0] === slug);
       if (!entry) throw new Error('Unknown image slug: ' + slug);
       console.log('  ' + slug);
-      manifest.images[slug] = encode(join(SRC, entry[0], entry[1]),
+      manifest.images[slug] = encode(entry[1],
         join(ROOT, 'assets/img'), slug, HDR.has(slug));
     }
     writeFileSync(join(ROOT, 'js/manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
@@ -189,6 +200,13 @@ function main() {
     manifest.images[slug] = encode(
       join(SRC, 'Photography', file), join(ROOT, 'assets', 'img'), slug, HDR.has(slug),
     );
+  }
+
+  console.log('additional lens photos...');
+  for (const [slug] of EXTRA_LENS) {
+    console.log('  ' + slug);
+    manifest.images[slug] = encode(join(ROOT, 'assets', 'originals', slug + '.jpg'),
+      join(ROOT, 'assets', 'img'), slug, HDR.has(slug));
   }
 
   copyFileSync(join(SRC, 'Photography', 'Include this pic.jpg'), join(ROOT, 'assets/originals/include-this-pic.jpg'));

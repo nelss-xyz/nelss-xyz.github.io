@@ -26,7 +26,7 @@ JavaScript populates project and photo collections. The HTML includes a notice f
 
 ## Original files and metadata
 
-Masters in `/Users/nels/Pictures/Website Showcase` are read only by the asset scripts. Eight HDR masters are copied verbatim into `assets/hdr`; their embedded gain maps remain intact. The DSC-W310 classroom original is also copied verbatim into `assets/originals` to retain its real EXIF. Responsive previews are separate files. Gallery and lightbox image display widths are capped at half the source width, giving a conservative limit for low-resolution pictures on high-density displays.
+Masters in `/Users/nels/Pictures/Website Showcase` are read only by the asset scripts. Eight HDR masters are copied verbatim into `assets/hdr`; their embedded gain maps remain intact. The DSC-W310 classroom original and the seven new OPPO photos are copied verbatim into `assets/originals` to retain their source files and EXIF. Responsive previews are separate files. Gallery and lightbox image display widths are capped at half the source width, giving a conservative limit for low-resolution pictures on high-density displays.
 
 `node tools/read-metadata.mjs` refreshes EXIF and dates without re-encoding images. Dates use `DateTimeOriginal`, except the user's overrides: biography NDP photos August 2023, 3 Progs ICs January 2026, 4 Fuji July 2024, PSL March 2024, Xinyao June 2026, and signing out July 2026. Photography NDP images retain their actual August 2024 metadata. All selected journal dates are known. Captions derive from filenames; photography has descriptive accessibility text but no visible captions.
 

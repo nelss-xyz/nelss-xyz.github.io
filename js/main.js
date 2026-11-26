@@ -126,9 +126,10 @@
   function renderLens() {
     document.getElementById('lens-grid').innerHTML = S.lens.map(function (item) {
       var m = IMG[item.slug];
-      var line = m.exif ? '<span class="exif">' + esc(m.exif) + '</span>' : '';
+      var line = m.exif ? '<figcaption class="exif">' + esc(m.exif) + '</figcaption>' : '';
       var orientation = m.w >= m.h ? ' lens__landscape' : ' lens__portrait';
-      return '<figure class="reveal lens__figure' + orientation + '" style="max-width:' + Math.floor(m.w / 2) + 'px">' + mediaButton({
+      var dimensions = '--photo-width:' + Math.floor(m.w / 2) + 'px;--photo-ratio:' + (m.w / m.h);
+      return '<figure class="reveal lens__figure' + orientation + '" style="' + dimensions + '">' + mediaButton({
         slug: item.slug, group: 'lens', alt: item.alt,
         sizes: '(min-width:720px) 46vw, 100vw',
       }) + line + '</figure>';

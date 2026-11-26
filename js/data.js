@@ -28,14 +28,71 @@ window.SITE = {
 
   timeline: [
     {
-        "title": "ndp ’23",
-        "showCaptions": false,
-        "period": "August 2023",
-        "text": "in 2023, i was a part of the marching contingent for NCC. it was 150+ hours of training but the result was worth it. it may have been tiring to balance my schoolwork on top of sacrificing my saturdays for this but i will forever be grateful for the experience & chance to be a part of it. 🫡 🇸🇬",
+        "title": "8th sc",
+        "hideCaptions": ["sc-fg"],
+        "period": "January — July 2026",
+        "text": "beyond ori, there was so much more to sc that I unfortunately cannot describe all in detail. from teachers day to leading communications comm & more, sc has taught me so much & has extended my capacity to lead. i've made so many new friends in sc whom i really tresure. sc really has given me a whole new perspective on leadership & it would'nt have been the same without the people ive met along the way. ⚡️",
         "items": [
-            "ndp-towards-padang",
-            "ndp-ready",
-            "ndp-padang"
+            "8th-sc",
+            "sc-fg",
+            "teachers-day",
+            "artemis-alphas"
+        ],
+        "video": "signing-out"
+    },
+    {
+        "title": "xinyao ’26 🎹 🎤",
+        "period": "June 2026",
+        "showCaptions": false,
+        "text": "i've always wanted to perform in a band. therefore, when one of my friends from eXplore asked if anyone was interested in this, i immediately agreed despite not even knowing chinese. i started out as the keyboardist. we didn't even think we'd make it through the first round but somehow we did. for the second round, i found out that a band was provided & hence i had to pivot. as a group we spent so many hours that week practising & somehow i managed to learn a few parts too to perform. we may not have won the finals but truth be told it was never about the result but about the journey. it was such a fun experience spending hours practising with this bunch. 🔥🎤",
+        "items": ["xinyao-performance", "xinyao-216", "xinyao-051"],
+        "link": {
+            "label": "the explorers in zaobao ↗",
+            "href": "https://www.zaobao.com.sg/lifestyle/gen/story20260605-9141020#:~:text=%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%97%85%E7%BB%93%E7%BC%98%E7%BB%84%E6%88%90%E4%B9%90%E9%98%9F"
+        }
+    },
+    {
+        "title": "asr orientation ’26",
+        "period": "January — February 2026",
+        "text": "ori '26 was the largest scale event i've ever planned. planning orientation for a whole cohort of J1s definitely isn't easy & I couldnt have done it without my dearest ori ics. im so grateful for the chance to have been able to work with them as well as my fellow 8th SCs to plan out such a successful event. it was incredibly fulfilling & fun experience. although we of course had issues, we managed to work through everything & had everything go smoothly. if had the opportunity to do this all again, i wouldnt even hesitate to. 🚀",
+        "items": [
+            "progs-ics",
+            "ori-ics"
+        ],
+        "video": "orientation"
+    },
+    {
+        "title": "asr eXplore @ Hong Kong ’25 🇭🇰",
+        "showCaptions": false,
+        "period": "November — December 2025",
+        "text": "asr explore was one of my peak experiences in my time in asr. it was eye opening to see the way of life for people in different parts of society. the experience made me incredibly grateful for the privilege i have to be able to have a stable life. i've definitely learnt so much from this experience but of course most importantly, made more core memories. i had so much fun on this trip & grateful to have been to cross paths with everyone i met there. hong kong is an incredibly beautiful city & i am glad i had the opportunity to visit, learn & most importantly make memories with the bunch of amazing people that I had.",
+        "items": [
+            "hk-asr",
+            "hk-guys",
+            "hk-hike"
+        ]
+    },
+    /*
+    {
+        "title": "asr ’26",
+        "showCaptions": false,
+        "period": "2025 — 2026",
+        "text": "after tms, i entered asrjc. i've learnt so much from the people i've met here & have made many lasting memories. from planning ori, to asr eXplore @ Hong Kong, i've met so many great people & am happy to have gone through this journey with them.",
+        "items": [
+            "j1-fg",
+            "paradigm-math"
+        ]
+    },
+    */
+    {
+        "title": "tms ’24",
+        "showCaptions": false,
+        "period": "2021 — 2024",
+        "text": "from 2021 to 2024, i was a student in temasek secondary. beyond PSL, the people i’ve met in tms have taught me so much & i’m so grateful to have met every single one of them. from OAL camp to even just regular lessons, i've bonded so much with the people in my class & beyond. i've met some of the best people in my life here & i'm so grateful to have gone here. ❤️",
+        "items": [
+            "tms-24",
+            "fuji",
+            "sec-sch-fg"
         ]
     },
     {
@@ -50,70 +107,15 @@ window.SITE = {
         ]
     },
     {
-        "title": "tms ’24",
+        "title": "ndp ’23",
         "showCaptions": false,
-        "period": "2021 — 2024",
-        "text": "from 2021 to 2024, i was a student in temasek secondary. beyond PSL, the people i’ve met in tms have taught me so much & i’m so grateful to have met every single one of them. from OAL camp to even just regular lessons, i've bonded so much with the people in my class & beyond. i've met some of the best people in my life here & i'm so grateful to have gone here. ❤️",
+        "period": "August 2023",
+        "text": "in 2023, i was a part of the marching contingent for NCC. it was 150+ hours of training but the result was worth it. it may have been tiring to balance my schoolwork on top of sacrificing my saturdays for this but i will forever be grateful for the experience & chance to be a part of it. 🫡 🇸🇬",
         "items": [
-            "tms-24",
-            "fuji",
-            "sec-sch-fg"
+            "ndp-towards-padang",
+            "ndp-ready",
+            "ndp-padang"
         ]
-    },
-    {
-        "title": "asr ’26",
-        "showCaptions": false,
-        "period": "2025 — 2026",
-        "text": "after tms, i entered asrjc. i've learnt so much from the people i've met here & have made many lasting memories. from planning ori, to asr eXplore @ Hong Kong, i've met so many great people & am happy to have gone through this journey with them.",
-        "items": [
-            "j1-fg",
-            "paradigm-math"
-        ]
-    },
-    {
-        "title": "asr eXplore @ Hong Kong ’25 🇭🇰",
-        "showCaptions": false,
-        "period": "November — December 2025",
-        "text": "asr explore was one of my peak experiences in my time in asr. it was eye opening to see the way of life for people in different parts of society. the experience made me incredibly grateful for the privilege i have to be able to have a stable life. i've definitely learnt so much from this experience but of course most importantly, made more core memories. i had so much fun on this trip & grateful to have been to cross paths with everyone i met there. hong kong is an incredibly beautiful city & i am glad i had the opportunity to visit, learn & most importantly make memories with the bunch of amazing people that I had.",
-        "items": [
-            "hk-asr",
-            "hk-guys",
-            "hk-hike"
-        ]
-    },
-    {
-        "title": "asr orientation ’26",
-        "period": "January — February 2026",
-        "text": "ori '26 was the largest scale event i've ever planned. planning orientation for a whole cohort of J1s definitely isn't easy & I couldnt have done it without my dearest ori ics. im so grateful for the chance to have been able to work with them as well as my fellow 8th SCs to plan out such a successful event. it was incredibly fulfilling & fun experience. although we of course had issues, we managed to work through everything & had everything go smoothly. if had the opportunity to do this all again, i wouldnt even hesitate to. 🚀",
-        "items": [
-            "progs-ics",
-            "ori-ics"
-        ],
-        "video": "orientation"
-    },
-    {
-        "title": "xinyao ’26 🎹 🎤",
-        "period": "June 2026",
-        "showCaptions": false,
-        "text": "i've always wanted to perform in a band. therefore, when one of my friends from eXplore asked if anyone was interested in this, i immediately agreed despite not even knowing chinese. i started out as the keyboardist. we didn't even think we'd make it through the first round but somehow we did. for the second round, i found out that a band was provided & hence i had to pivot. as a group we spent so many hours that week practising & somehow i managed to learn a few parts too to perform. we may not have won the finals but truth be told it was never about the result but about the journey. it was such a fun experience spending hours practising with this bunch. 🔥🎤",
-        "items": ["xinyao-performance", "xinyao-216", "xinyao-051"],
-        "link": {
-            "label": "the explorers in zaobao ↗",
-            "href": "https://www.zaobao.com.sg/lifestyle/gen/story20260605-9141020#:~:text=%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%97%85%E7%BB%93%E7%BC%98%E7%BB%84%E6%88%90%E4%B9%90%E9%98%9F"
-        }
-    },
-    {
-        "title": "8th sc",
-        "hideCaptions": ["sc-fg"],
-        "period": "January — July 2026",
-        "text": "beyond ori, there was so much more to sc that I unfortunately cannot describe all in detail. from teachers day to leading communications comm & more, sc has taught me so much & has extended my capacity to lead. i've made so many new friends in sc whom i really tresure. sc really has given me a whole new perspective on leadership & it would'nt have been the same without the people ive met along the way. ⚡️",
-        "items": [
-            "8th-sc",
-            "sc-fg",
-            "teachers-day",
-            "artemis-alphas"
-        ],
-        "video": "signing-out"
     }
 ],
 
